@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <GridLayout columns="*, auto" rows="auto, *">
+    <Label row="0" col="0" text="Status Bar visible?"/>
+    <Switch row="0" col="1" tap="switchTapped" checked="{{ statusBarVisible }}"/>
+  </GridLayout>
+</Page>

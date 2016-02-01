@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+      "tns-core-modules": "1.5.1", 
+      "nativescript-status-bar": "1.0.1"
+    },
+    "devDependencies": {}
+}

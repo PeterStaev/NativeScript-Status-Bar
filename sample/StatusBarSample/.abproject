@@ -1,0 +1,28 @@
+{
+  "ProjectName": "StatusBarSample",
+  "ProjectGuid": "daf9dbf3-1901-4a33-9f26-2927468ee87b",
+  "projectVersion": 1,
+  "AppIdentifier": "com.tangrainc.StatusBarSample",
+  "DisplayName": "StatusBarSample",
+  "Author": "",
+  "Description": "StatusBarSample",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "1.5.2",
+  "Framework": "NativeScript"
+}

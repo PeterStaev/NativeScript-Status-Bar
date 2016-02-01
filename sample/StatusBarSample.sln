@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A81B4A23-AF18-4B01-8944-84D6FB3D4B47}") = "StatusBarSample", "StatusBarSample\StatusBarSample.iceproj", "{DAF9DBF3-1901-4A33-9F26-2927468EE87B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAF9DBF3-1901-4A33-9F26-2927468EE87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF9DBF3-1901-4A33-9F26-2927468EE87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF9DBF3-1901-4A33-9F26-2927468EE87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF9DBF3-1901-4A33-9F26-2927468EE87B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
