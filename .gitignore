@@ -47,8 +47,8 @@ obj
 .vs
 .tscache
 *.user
-#*.js
+*.js
 !gruntfile.js
 node_modules
 *.tmp.*
-#platforms
+platforms
