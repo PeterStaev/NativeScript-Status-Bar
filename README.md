@@ -1,4 +1,5 @@
-# NativeScript DropDown widget
+# NativeScript StatusBar plugin
+[![Build Status](https://travis-ci.org/PeterStaev/NativeScript-Status-Bar.svg?branch=master)](https://travis-ci.org/PeterStaev/NativeScript-Status-Bar)
 
 A simple NativeScript plugin for controlling status bar visibility.
 
