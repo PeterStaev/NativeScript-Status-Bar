@@ -14,7 +14,7 @@ module.exports = function (grunt)
         ],
         typeScriptDeclarations: [
             "**/*.d.ts",
-            "!_references.d.ts",
+            "!references.d.ts",
             "!node_modules/**/*.*",
             "!sample/**/*.*",
             "!bin/**/*.*"
@@ -32,17 +32,7 @@ module.exports = function (grunt)
             build: {
                 src: localConfig.typeScriptSrc,
                 outDir: localConfig.outDir,
-                options: {
-                    target: "es5",
-                    module: "commonjs",
-                    declaration: false,
-                    noImplicitAny: false,
-                    removeComments: true,
-                    sourceMap: false,
-                    noLib: false,
-                    outDir: "dist",
-                    isolatedModules: true
-                }
+                tsconfig: true
             }
         },
         tslint:
@@ -78,6 +68,10 @@ module.exports = function (grunt)
                 src: 'platforms/**',
                 dest: localConfig.outDir
             }, 
+            license: {
+                src: "LICENSE",
+                dest: localConfig.outDir
+            },
             readme: {
                 src: "README.md",
                 dest: localConfig.outDir,

@@ -13,9 +13,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ***************************************************************************** */
-declare let UIApplication;
-declare let UIStatusBarAnimation;
-
 import utils = require("utils/utils");
 
 function getApp() {
@@ -24,10 +21,10 @@ function getApp() {
 
 export function show()
 {
-    getApp().setStatusBarHiddenWithAnimation(false, UIStatusBarAnimation.UIStatusBarAnimationSlide);
+    getApp().setStatusBarHiddenWithAnimation(false, UIStatusBarAnimation.Slide);
 }
 
 export function hide()
 {
-    getApp().setStatusBarHiddenWithAnimation(true, UIStatusBarAnimation.UIStatusBarAnimationSlide);
+    getApp().setStatusBarHiddenWithAnimation(true, UIStatusBarAnimation.Slide);
 }
