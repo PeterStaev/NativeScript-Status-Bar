@@ -4,6 +4,10 @@
 A simple NativeScript plugin for controlling status bar visibility.
 
 ## Installation
+Make sure you're using __NativeScript 2.3.0 or higher__. If not please run:
+
+`npm install -g nativescript`
+
 Run the following command from the root of your project:
 
 `tns plugin add nativescript-status-bar`
