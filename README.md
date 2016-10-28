@@ -1,8 +1,8 @@
 # NativeScript StatusBar plugin
 [![Build Status](https://travis-ci.org/PeterStaev/NativeScript-Status-Bar.svg?branch=master)](https://travis-ci.org/PeterStaev/NativeScript-Status-Bar)
-[![npm downloads](https://img.shields.io/npm/dm/nativescript-status-bar.svg)](https://www.npmjs.com/package/NativeScript-Status-Bar)
-[![npm downloads](https://img.shields.io/npm/dt/nativescript-status-bar.svg)](https://www.npmjs.com/package/NativeScript-Status-Bar)
-[![npm](https://img.shields.io/npm/v/nativescript-status-bar.svg)](https://www.npmjs.com/package/NativeScript-Status-Bar)
+[![npm downloads](https://img.shields.io/npm/dm/nativescript-status-bar.svg)](https://www.npmjs.com/package/nativescript-status-bar)
+[![npm downloads](https://img.shields.io/npm/dt/nativescript-status-bar.svg)](https://www.npmjs.com/package/nativescript-status-bar)
+[![npm](https://img.shields.io/npm/v/nativescript-status-bar.svg)](https://www.npmjs.com/package/nativescript-status-bar)
 
 A simple NativeScript plugin for controlling status bar visibility.
 
