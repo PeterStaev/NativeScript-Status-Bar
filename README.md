@@ -21,6 +21,12 @@ This command automatically installs the necessary files, as well as stores nativ
 import statusBar = require("nativescript-status-bar");
 ```
 
+For Angular:
+```TypeScript
+// Get reference to the Status Bar plugin module
+import * as statusBar from 'nativescript-status-bar'
+```
+
 * **show()**  
 Shows the status bar.
 
