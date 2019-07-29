@@ -1,6 +1,6 @@
 {
   "name": "nativescript-status-bar",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A simple NativeScript plugin for controlling status bar visibility.",
   "main": "status-bar.js",
   "nativescript": {
@@ -22,7 +22,8 @@
   ],
   "author": "Peter Staev <peter@tangrasoft.com>",
   "contributors": [
-    "Adrian Pluta (https://github.com/aplut)"
+    "Adrian Pluta (https://github.com/aplut)",
+    "Paul Weber (https://github.com/000panther)"
   ],
   "license": "Apache-2.0",
 
